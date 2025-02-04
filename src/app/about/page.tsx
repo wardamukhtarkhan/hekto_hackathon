@@ -29,7 +29,7 @@ const AboutPage = () => {
         </div>
         <div>
           <Image
-            src="/images/about.png"
+            src="/aboutus1.png"
             alt="Ecommerce Meeting"
             width={500}
             height={500}
@@ -43,10 +43,10 @@ const AboutPage = () => {
         <h2 className="text-3xl font-bold mb-8">Our Features</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: "/images/icon1.png", title: "Free Delivery" },
-            { icon: "/images/icon2.png", title: "100% Cash Back" },
-            { icon: "/images/icon3.png", title: "Quality Product" },
-            { icon: "/images/icon4.png", title: "24/7 Support" },
+            { icon: "/s1.png", title: "Free Delivery" },
+            { icon: "/s2.png", title: "100% Cash Back" },
+            { icon: "/s3.png", title: "Quality Product" },
+            { icon: "/s4.png", title: "24/7 Support" },
           ].map((feature, index) => (
             <div
               key={index}
@@ -73,9 +73,9 @@ const AboutPage = () => {
         <h2 className="text-3xl font-bold mb-8">Our Client Say!</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { name: "Selina Gomez", image: "/images/client1.png" },
-            { name: "John Doe", image: "/images/client2.png" },
-            { name: "Emma Watson", image: "/images/client3.png" },
+            { name: "Selina Gomez", image: "/aboutus2.png" },
+            { name: "John Doe", image: "/aboutus3.png" },
+            { name: "Emma Watson", image: "/aboutus4.png" },
           ].map((client, index) => (
             <div key={index} className="flex flex-col items-center">
               <Image
